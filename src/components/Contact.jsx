@@ -7,7 +7,7 @@ import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import {  slideIn } from "../utils/motion";
+import { slideIn } from "../utils/motion";
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,19 +33,24 @@ const Contact = () => {
     setLoading(true);
     setFeedback({ success: "", error: "" });
 
-    // VmLx9l3ImQco4kZnb
-    const serviceID = "service_m7xod12";
-    const templateID = "template_bcye21s";
-    const publicKey = "VmLx9l3ImQco4kZnb";
+    // EmailJS Configuration
+    const serviceID = "service_m7xod12"; // Replace with your EmailJS Service ID
+    const templateID = "template_bcye21s"; // Replace with your EmailJS Template ID
+    const publicKey = "VmLx9l3ImQco4kZnb"; // Replace with your EmailJS Public Key
 
     emailjs
-      .send(serviceID, templateID,{
-        from_name: form.name,
-        to_name: "Myo Htet",
-        from_email: form.email,
-        to_email:"myohtetkyaw2003@gmail.com",
-        message: form.message,
-      },publicKey)
+      .send(
+        serviceID,
+        templateID,
+        {
+          from_name: form.name, // Sender's Name
+          to_name: "Myo Htet", // Receiver's Name
+          from_email: form.email, // Sender's Email
+          to_email: "myohtetkyaw2003@gmail.com", // Your Email (Receiver)
+          message: form.message, // Message Content
+        },
+        publicKey
+      )
       .then(
         () => {
           setLoading(false);
@@ -56,7 +61,7 @@ const Contact = () => {
           setLoading(false);
           setFeedback({
             error:
-              "Something went wrong. Please try again later or contact me directly at your-email@example.com.",
+              "Something went wrong. Please try again later or contact me directly at myohtetkyaw2003@gmail.com.",
           });
           console.error("EmailJS Error:", error);
         }

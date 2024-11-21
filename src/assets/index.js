@@ -8,15 +8,15 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import php from "./tech/php.png";
+import bootstrap from "./tech/bootstrap.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import laravel from "./tech/laravel.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import mysql from "./tech/mysql.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -26,8 +26,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import sherry from "./sherry.png";
+import nurserent from "./nurserent.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -40,15 +40,15 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  php,
+  bootstrap,
   git,
   html,
   javascript,
-  mongodb,
+  laravel,
   nodejs,
   reactjs,
-  redux,
+  mysql,
   tailwind,
   typescript,
   threejs,
@@ -56,7 +56,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  sherry,
+  nurserent,
   tripguide,
 };
