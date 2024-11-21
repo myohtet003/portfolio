@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  sherry,
+  shelly,
   nurserent,
   tripguide, 
 } from "../assets";
@@ -206,7 +206,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: sherry,
+    image: shelly,
     source_code_link: "https://github.com/myohtet003/school-project",
   },
   {

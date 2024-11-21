@@ -26,7 +26,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import sherry from "./sherry.png";
+import shelly from "./shelly.png";
 import nurserent from "./nurserent.png";
 import tripguide from "./tripguide.png";
 
@@ -56,7 +56,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  sherry,
+  shelly,
   nurserent,
   tripguide,
 };
