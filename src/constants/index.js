@@ -207,7 +207,7 @@ const projects = [
       },
     ],
     image: shelly,
-    source_code_link: "https://github.com/myohtet003/school-project",
+    source_code_link: "https://learn-with-shelly.vercel.app",
   },
   {
     name: "Nurse Rent",
@@ -228,7 +228,7 @@ const projects = [
       },
     ],
     image: nurserent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://zabuhein.com",
   },
   {
     name: "E-Commerce App",
@@ -249,7 +249,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "",
   },
 ];
 
