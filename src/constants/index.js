@@ -14,14 +14,13 @@ import {
   laravel,
   git, 
   php,
-  bootstrap,
-  meta,
+  bootstrap, 
   starbucks,
   tesla,
   shopify,
   shelly,
-  nurserent,
-  tripguide, 
+  nurserent, 
+  projectManagementImage
 } from "../assets";
 
 export const navLinks = [
@@ -109,60 +108,104 @@ const technologies = [
   },
 ];
 
+// const experiences = [
+//   {
+//     title: "React.js Developer",
+//     company_name: "Starbucks",
+//     icon: starbucks,
+//     iconBg: "#383E56",
+//     date: "March 2020 - April 2021",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "React Native Developer",
+//     company_name: "Tesla",
+//     icon: tesla,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2021 - Feb 2022",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Web Developer",
+//     company_name: "Shopify",
+//     icon: shopify,
+//     iconBg: "#383E56",
+//     date: "Jan 2022 - Jan 2023",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Full stack Developer",
+//     company_name: "Meta",
+//     icon: meta,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2023 - Present",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+// ];
+
+
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full Stack Developer (Freelance)",
+    company_name: "Nurse Rent Web Application",
+    icon: starbucks, // Replace with your custom icon
+    iconBg: "#A78BFA",
+    date: "June 2024 - September 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a nurse rental platform using Laravel, Tailwind CSS, and MySQL.",
+      "Implemented features for nurse registration, scheduling, and booking management.",
+      "Integrated secure login, role-based access (admin, nurse, client), and notifications.",
+      "Designed a clean, responsive interface for mobile and desktop users.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Back-End Developer (Freelance)",
+    company_name: "Road Chart Application (Government Project)",
+    icon: tesla, // Replace with your custom icon
+    iconBg: "#6EE7B7",
+    date: "Octomber 2024 - February 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on a government web app to manage road planning data using Laravel and MySQL.",
+      "Designed RESTful APIs to handle project status, timelines, and mapping data.",
+      "Collaborated with a front-end team to ensure real-time data syncing and filtering.",
+      "Optimized large database queries for efficient loading and reporting.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Full Stack Developer (Freelance)",
+    company_name: "Student Application Platform",
+    icon: shopify, // Replace with your custom icon
+    iconBg: "#FCD34D",
+    date: "March 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created a student application platform inspired by ApplyBoard using Laravel and React.",
+      "Built multi-step application forms, program listings, and document upload features.",
+      "Integrated admin panel for managing students, agents, and university data.",
+      "Implemented payment processing, application tracking, and email notifications.",
     ],
   },
 ];
+
 
 const testimonials = [
   {
@@ -231,26 +274,32 @@ const projects = [
     source_code_link: "https://zabuhein.com",
   },
   {
-    name: "E-Commerce App",
-    description:
-      "Comprehensive online platform providing users with an intuitive shopping experience to explore, purchase, and manage a wide range of products efficiently and securely.",
-    tags: [
-      {
-        name: "laravel",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "",
-  },
+  name: "Project Management App",
+  description:
+    "A powerful web-based application to help teams plan, track, and manage projects with ease. It includes task assignment, progress tracking, deadlines, and real-time updates with a clean and responsive interface.",
+  tags: [
+    {
+      name: "Laravel",
+      color: "red-text-gradient",
+    },
+    {
+      name: "Inertia.js",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Tailwind CSS",
+      color: "green-text-gradient",
+    },
+    {
+      name: "TypeScript",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: projectManagementImage, // Replace with your actual image or import
+  source_code_link: "https://github.com/myohtet003/project-management-app", // You can insert your GitHub or live link here
+},
+
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

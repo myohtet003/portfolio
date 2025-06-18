@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import shelly from "./shelly.png";
 import nurserent from "./nurserent.png";
 import tripguide from "./tripguide.png";
+import projectManagementImage from "./ProjectManagement.png";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   shelly,
   nurserent,
   tripguide,
+  projectManagementImage
 };
