@@ -46,9 +46,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className=" mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a junior PHP and Laravel developer passionate about building
-        dynamic web applications, gaining practical experience, and contributing
-        to challenging projects while continuously improving my skills.
+        I am a junior full-stack developer with hands-on experience in building
+        real-world web and mobile applications using Laravel, React.js, and
+        React Native.
       </motion.p>
 
       <div className=" mt-20 flex flex-wrap gap-10">
