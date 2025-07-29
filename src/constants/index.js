@@ -166,7 +166,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Developer (Freelance)",
+    title: "Full Stack Developer",
     company_name: "Nurse Rent Web Application",
     icon: starbucks, // Replace with your custom icon
     iconBg: "#A78BFA",
@@ -179,7 +179,7 @@ const experiences = [
     ],
   },
   {
-    title: "Back-End Developer (Freelance)",
+    title: "Back-End Developer",
     company_name: "Road Chart Application (Government Project)",
     icon: tesla, // Replace with your custom icon
     iconBg: "#6EE7B7",
@@ -192,7 +192,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer (Freelance)",
+    title: "Full Stack Developer",
     company_name: "Student Application Platform",
     icon: shopify, // Replace with your custom icon
     iconBg: "#FCD34D",
