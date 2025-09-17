@@ -169,7 +169,7 @@ const experiences = [
     title: "Full Stack Developer",
     company_name: "Nurse Rent Web Application",
     icon: starbucks, // Replace with your custom icon
-    iconBg: "#A78BFA",
+    iconBg: "#FFFFFF",
     date: "June 2024 - September 2024",
     points: [
       "Developed a nurse rental platform using Laravel, Tailwind CSS, and MySQL.",
@@ -177,8 +177,8 @@ const experiences = [
       "Integrated secure login, role-based access (admin, nurse, client), and notifications.",
       "Designed a clean, responsive interface for mobile and desktop users.",
     ],
-  },
-  {
+    },
+    {
     title: "Back-End Developer",
     company_name: "Road Chart Application (Government Project)",
     icon: tesla, // Replace with your custom icon
