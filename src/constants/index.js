@@ -16,9 +16,8 @@ import {
   php,
   bootstrap, 
   starbucks,
-  tesla,
   shopify,
-  shelly,
+  pos,
   nurserent, 
   projectManagementImage
 } from "../assets";
@@ -166,92 +165,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "Nurse Rent Web Application",
+    title: "Freelance Developer",
+    company_name: "Self-Employed",
     icon: starbucks, // Replace with your custom icon
     iconBg: "#FFFFFF",
-    date: "June 2024 - September 2024",
+    date: "2024 - 2025",
     points: [
-      "Developed a nurse rental platform using Laravel, Tailwind CSS, and MySQL.",
-      "Implemented features for nurse registration, scheduling, and booking management.",
-      "Integrated secure login, role-based access (admin, nurse, client), and notifications.",
-      "Designed a clean, responsive interface for mobile and desktop users.",
-    ],
-    },
-    {
-    title: "Back-End Developer",
-    company_name: "Road Chart Application (Government Project)",
-    icon: tesla, // Replace with your custom icon
-    iconBg: "#6EE7B7",
-    date: "Octomber 2024 - February 2025",
-    points: [
-      "Worked on a government web app to manage road planning data using Laravel and MySQL.",
-      "Designed RESTful APIs to handle project status, timelines, and mapping data.",
-      "Collaborated with a front-end team to ensure real-time data syncing and filtering.",
-      "Optimized large database queries for efficient loading and reporting.",
+      "Built a nurse rental platform using Laravel and MySQL.",
+      "Developed the Road Chart Application (Government Project) using Laravel and Chart.js.",
+      "Built a POS system with barcode generation and label printing for mobile and web platforms.",
+      "Implemented and maintained mobile and web features using React Native (Expo) and Laravel.",
     ],
   },
   {
     title: "Full Stack Developer",
-    company_name: "Student Application Platform",
+    company_name: "Education Valley",
     icon: shopify, // Replace with your custom icon
-    iconBg: "#FCD34D",
-    date: "March 2025 - Present",
+    iconBg: "#ffffff",
+    date: "December 2025 - Present",
     points: [
-      "Created a student application platform inspired by ApplyBoard using Laravel and React.",
-      "Built multi-step application forms, program listings, and document upload features.",
-      "Integrated admin panel for managing students, agents, and university data.",
-      "Implemented payment processing, application tracking, and email notifications.",
+      "Maintaining the main company website as an in-house developer at Education Valley.",
+      "Maintaining the student portal where students can apply to schools.",
+      "Developing and improving full-stack features using Laravel and React.",
+      "Handling bug fixes, performance improvements, and ongoing platform updates.",
     ],
   },
 ];
 
 
-const testimonials = [
+const highlights = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: "Full-Stack Delivery",
+    description:
+      "From planning to launch, I build complete web products with clean architecture and a strong user experience.",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    title: "Performance-Focused",
+    description:
+      "I optimize database queries, APIs, and frontend rendering to keep applications fast and responsive.",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Business-Aligned Solutions",
+    description:
+      "I build practical features that solve real workflow problems and support long-term product growth.",
   },
 ];
+
+// Backward-compatible alias for modules that still import `testimonials`.
+const testimonials = highlights;
 
 const projects = [
-  {
-    name: "Shelly School",
-    description:
-      "Web-based platform enabling students and parents to access resources, track progress, and manage educational activities seamlessly, fostering an interactive and efficient learning environment.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      }, 
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: shelly,
-    source_code_link: "https://learn-with-shelly.vercel.app",
-  },
   {
     name: "Nurse Rent",
     description:
@@ -274,32 +237,52 @@ const projects = [
     source_code_link: "https://zabuhein.com",
   },
   {
-  name: "Project Management App",
-  description:
-    "A powerful web-based application to help teams plan, track, and manage projects with ease. It includes task assignment, progress tracking, deadlines, and real-time updates with a clean and responsive interface.",
-  tags: [
-    {
-      name: "Laravel",
-      color: "red-text-gradient",
-    },
-    {
-      name: "Inertia.js",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "Tailwind CSS",
-      color: "green-text-gradient",
-    },
-    {
-      name: "TypeScript",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: projectManagementImage, // Replace with your actual image or import
-  source_code_link: "https://github.com/myohtet003/project-management-app", // You can insert your GitHub or live link here
-},
+    name: "Barcode and Label Printing POS System",
+    description:
+      "Mobile and web POS system for managing sales, products, and receipts with barcode generation and label printing, built with React Native (Expo) and Laravel.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "green-text-gradient",
+      },
+    ],
+    image: pos,
+    source_code_link: "https://learn-with-shelly.vercel.app",
+  },
 
-
+  {
+    name: "Project Management App",
+    description:
+      "A powerful web-based application to help teams plan, track, and manage projects with ease. It includes task assignment, progress tracking, deadlines, and real-time updates with a clean and responsive interface.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Inertia.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: projectManagementImage, // Replace with your actual image or import
+    source_code_link: "https://github.com/myohtet003/project-management-app", // You can insert your GitHub or live link here
+  }
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, highlights, testimonials, projects };
