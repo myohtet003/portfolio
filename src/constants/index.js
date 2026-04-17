@@ -255,7 +255,7 @@ const projects = [
       },
     ],
     image: pos,
-    source_code_link: "https://learn-with-shelly.vercel.app",
+    source_code_link: "https://github.com/myohtet003/sushi-mobile.git",
   },
 
   {
@@ -282,7 +282,7 @@ const projects = [
     ],
     image: projectManagementImage, // Replace with your actual image or import
     source_code_link: "https://github.com/myohtet003/project-management-app", // You can insert your GitHub or live link here
-  }
+  },
 ];
 
 export { services, technologies, experiences, highlights, testimonials, projects };
